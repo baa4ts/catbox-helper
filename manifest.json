@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Catbox - Helper",
+    "version": "1.0",
+    "description": "Extension simple para ayudar al usuario a mantener una lista clara y ordenada de los enlaces del material subido.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/16x16.ico",
+            "48": "icons/48x48.ico",
+            "128": "icons/128x128.ico"
+        }
+    },
+    "icons": {
+        "16": "icons/16x16.ico",
+        "48": "icons/48x48.ico",
+        "128": "icons/128x128.ico"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
